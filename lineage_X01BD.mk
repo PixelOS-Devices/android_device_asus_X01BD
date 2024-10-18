@@ -25,9 +25,6 @@ PRODUCT_MANUFACTURER := asus
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=ASUS_X01BD_1 \
-    PRODUCT_NAME=WW_X01BD \
-    PRIVATE_BUILD_DESC="sdm660_64-user 10 QKQ1 73 release-keys"
-
-# Build fingerprint
-BUILD_FINGERPRINT := "asus/WW_X01BD/ASUS_X01BD_1:10/QKQ1/17.2018.2012.434-20201203:user/release-keys"
+    BuildDesc="sdm660_64-user 10 QKQ1 73 release-keys" \
+    BuildFingerprint=asus/WW_X01BD/ASUS_X01BD_1:10/QKQ1/17.2018.2012.434-20201203:user/release-keys \
+    DeviceProduct=ASUS_X01BD_1
